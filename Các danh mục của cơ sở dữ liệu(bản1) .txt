@@ -1,0 +1,37 @@
+Các danh mục của cơ sở dữ liệu(bản 1)
+-------------------------------------------------------------------------------------
+1. Sinh viên:
+Mã số sinh viên (ID): Định danh duy nhất cho mỗi sinh viên.
+Họ và tên: Tên đầy đủ của sinh viên.
+Ngày sinh: Ngày sinh của sinh viên.
+Giới tính: Nam, nữ hoặc khác.
+Địa chỉ: Địa chỉ liên lạc của sinh viên.
+Số điện thoại: Số điện thoại liên lạc.
+Email: Địa chỉ email để liên lạc.
+Chuyên ngành: Ngành học của sinh viên.
+Khóa học: Khóa học mà sinh viên đang theo học (ví dụ: K65, K66).
+Lớp: Lớp mà sinh viên đang theo học (ví dụ: CNTT1, CNTT2).
+2. Môn học:
+Mã môn học (ID): Định danh duy nhất cho mỗi môn học.
+Tên môn học: Tên đầy đủ của môn học.
+Số tín chỉ: Số tín chỉ của môn học.
+Mô tả: Mô tả ngắn gọn về nội dung môn học.
+Giảng viên phụ trách: Giảng viên giảng dạy môn học.
+Học kỳ: Học kỳ mà môn học được giảng dạy (ví dụ: HK1, HK2).
+Năm học: Năm học mà môn học được giảng dạy.
+3. Lớp:
+Mã lớp (ID): Định danh duy nhất cho mỗi lớp.
+Tên lớp: Tên lớp (ví dụ: CNTT1, CNTT2).
+Khóa học: Khóa học của lớp (ví dụ: K65, K66).
+Chuyên ngành: Chuyên ngành của lớp.
+Sỉ số: Số lượng sinh viên tối đa trong lớp.
+Danh sách sinh viên: Danh sách mã số sinh viên thuộc lớp.
+4. Thời khóa biểu:
+Mã thời khóa biểu (ID): Định danh duy nhất cho mỗi thời khóa biểu.
+Lớp: Lớp học áp dụng thời khóa biểu này.
+Học kỳ: Học kỳ áp dụng thời khóa biểu.
+Năm học: Năm học áp dụng thời khóa biểu.
+Thứ: Thứ trong tuần (ví dụ: Thứ 2, Thứ 3).
+Tiết học: Tiết học trong ngày (ví dụ: Tiết 1, Tiết 2).
+Môn học: Môn học được học trong tiết đó.
+Phòng học: Phòng học diễn ra tiết học.
