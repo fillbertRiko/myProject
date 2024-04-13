@@ -29,8 +29,10 @@ create table SinhVien
 	SoDienThoai nvarchar(11) not null,
 	Email nvarchar(100) not null,
 	ChuyenNganh nvarchar(50) not null,
-	KhoaHoc nvarchar(10) not null
+	KhoaHoc nvarchar(10) not null,
+	primary key (iMaSV, iMaLop)
 )
+
 --bang danh sach lop
 create table Lop
 (
@@ -40,6 +42,7 @@ create table Lop
 	ChuyenNganh nvarchar(20) not null,
 	SiSo int,
 	tDanhSachSV char(10) not null,
+	primary key (iMaLop)
 )
 --bang mon hoc
 create table MonHoc
@@ -51,6 +54,7 @@ create table MonHoc
 	iMaGiangVien char(10) not null,
 	HocKi int,
 	dNamHoc datetime,
+	primary key(iMaMonHoc)
 )
 --bang thoi khoa bieu
 create table ThoiKhoaBieu
@@ -63,6 +67,7 @@ create table ThoiKhoaBieu
 	sTietHoc char(10) not null,
 	iMaMonHoc char(10) not null,
 	nTenMonHoc nvarchar(50) not null,
-	iPhongHoc char(10) not null
+	iPhongHoc char(10) not null,
+	primary key (iMaThoiKhoaBieu)
 )
 go
